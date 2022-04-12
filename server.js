@@ -18,6 +18,11 @@ app.post('/addInfo',(req, res) => {
     console.log(req.body)
 })
 
+app.get('/server',(req, res) => {
+    res.send("serverUp")
+    console.log(req.body)
+})
+
 app.listen(4000, ()=> {
     console.log("running on port 4000")
 })
