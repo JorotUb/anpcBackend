@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'anpcBackend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2FC6B168C7C4718A33EB1659B40D6FE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_350BF16DB13148DA9EE42CA84BC8242C }}
           package: .
